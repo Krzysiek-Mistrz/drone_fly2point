@@ -9,7 +9,7 @@ setup(
     version='0.0.0',
     packages=[package_name],
     data_files=[
-        # ustawienia sciezek
+        # setting paths
         (os.path.join('share', package_name), ['package.xml']),
         (os.path.join('share', package_name, 'launch'), glob('launch/*.launch.py')),
     ],
@@ -22,7 +22,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'drone_fly_to_point = drone_fly_to_point.drone_fly_to_point:main'
+            #node_name = package_name.node_name when simple prj usually package_name == node_name ;)
+            'drone_fly_to_point = drone_fly_to_point.drone_fly_to_point:main' 
         ],
     },
 )
