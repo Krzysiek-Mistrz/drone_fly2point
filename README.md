@@ -70,7 +70,9 @@ By combining these, you can command the drone to take off, navigate to a target 
 4. Source the install setup:
    ```
    source install/setup.bash
-   ```
+   ```  
+> **IMPORTANT**  
+> After cloning u need to change package name (main folder name so "drone_fly2point" 2 drone_fly_to_point) in order for this package 2 work. Otherwise you would need to change setup.py 
 
 ---
 
