@@ -5,7 +5,7 @@
   <version>0.0.0</version>
   <description>TODO: Package description</description>
   <maintainer email="krzyskuar@gmail.com">krzychu</maintainer>
-  <license>TODO: License declaration</license>
+  <license>GNU GPL V3</license>
 
   <depend>rclpy</depend>
   <depend>std_msgs</depend>

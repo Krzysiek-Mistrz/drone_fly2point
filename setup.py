@@ -9,20 +9,20 @@ setup(
     version='0.0.0',
     packages=[package_name],
     data_files=[
-        # Ustawienie ścieżki do folderu launch
+        # ustawienia sciezek
         (os.path.join('share', package_name), ['package.xml']),
         (os.path.join('share', package_name, 'launch'), glob('launch/*.launch.py')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='krzychu',
-    maintainer_email='krzychu@example.com',
-    description='Opis twojego pakietu',
-    license='Licencja',
+    maintainer_email='krzyskuar@gmail.com',
+    description='just flying 2 certain point in space',
+    license='GNU GPL V3',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'drone_control_node = drone_control.drone_control_node:main'
+            'drone_fly_to_point = drone_fly_to_point.drone_fly_to_point:main'
         ],
     },
 )
