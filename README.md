@@ -80,6 +80,8 @@ By combining these, you can command the drone to take off, navigate to a target 
   `launch/my_mavros_launch.launch.py`  
   - Configures MAVROS to connect to PX4 SITL at `udp://:14540@localhost:14557`  
   - Launches the `drone_fly_to_point` node  
+> **NOTE**
+> U need 2 have mavros installed `sudo apt install ros-<ur_ros_distro>-mavros ros-<ur_ros_distro>-mavros-extras`
 
 - **Parameters**:  
   - In the launch file, adjust `fcu_url`, `system_id`, and `component_id` as needed.  
